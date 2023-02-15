@@ -1,0 +1,74 @@
+section {
+  display: block;
+  padding: 0rem 0rem 10rem 0rem;
+}
+
+.jumbotron {
+  padding: 8rem 0rem 0rem 0rem;
+  background-color: #201f1f;
+}
+
+.jumbotron h1 {
+  padding: 2rem 1rem 0rem 1rem;
+  color: #079211;
+}
+
+.jumbotron p {
+  padding: 0rem 0rem 5rem 0rem;
+  color: #ffffff;
+}
+
+#navbarNav ul li a {
+  opacity: 1;
+  transition: all 0.3s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: all;
+}
+
+#navbarNav ul li a:hover {
+  -webkit-text-fill-color: rgba(255, 255, 0, 0.8);
+}
+
+#navbarNav ul li a .nav-link {
+  -webkit-text-fill-color: rgba(255, 255, 0);
+}
+
+#about h2 {
+  color: #ffffff;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+#about p {
+  color: #bfbfbf;
+  padding-bottom: 0rem;
+}
+
+#gallery {
+  background-color: #201f1f;
+}
+
+#gallery h2 {
+  color: #ffffff;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+#gallery p {
+  color: #bfbfbf;
+}
+
+footer {
+  background-color: #171717;
+}
+
+footer p a:hover {
+  -webkit-text-fill-color: #079211;
+  text-decoration-color: #079211;
+}
+
+footer p i {
+  color: #079211;
+}
